@@ -6,7 +6,25 @@
     *{
         @apply m-0 p-0 ;
     }
-    .large_heading{
-        @apply text-4xl font-bold;
+    h1{
+        @apply text-heading font-bold;
+    }
+    h2{
+        @apply text-large font-semibold;
+    }
+    h3{
+        @apply text-medium font-semibold;
+    }
+    h4{
+        @apply text-medium font-medium;
+    }
+    button{
+        @apply px-5 py-2 bg-ourBlue text-white text-average rounded-md;
+    }
+    nav{
+        @apply w-full p-5 bg-white flex items-center justify-between;
+    }
+    footer{
+        @apply w-full py-5 flex items-center justify-center bg-white;
     }
 }
