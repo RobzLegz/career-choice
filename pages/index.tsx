@@ -1,40 +1,71 @@
 import Head from 'next/head'
-import { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux';
-import { getThemes } from './../src/logic/requests/themeOptions';
-import { themeData } from './../src/redux/slices/themeSlice';
-import Theme from './../src/components/themes/Theme';
+import Navigation from "../src/components/navigation/Navigation";
+import Footer from "../src/components/footer/Footer";
 
 export default function Home() {
-  const themeInfo = useSelector(themeData);
-
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    if(!themeInfo.themes){
-      getThemes(dispatch);
-    }
-  }, [dispatch, themeInfo.themes]);
-
   return (
-    <div>
+    <div className="bg-light-darker">
       <Head>
         <title>Karjera man</title>
       </Head>
 
-      <div className="w-full h-24 flex items-center justify-center">
-        <h1 className="large_heading">Karjera man</h1>
+      <Navigation />
+
+      <div className="w-full flex items-center justify-center flex-col py-10">
+        <h1>Karjera man</h1>
+        <h2>Atrodi sev piemērotākās profesijas un karjeras iespējas</h2>
       </div>
 
-      {themeInfo.themes && themeInfo.themes.map((theme: any, i: number) => {
-        return (
-          <Theme 
-            key={i}
-            data={theme}
-          />
-        )
-      })}
+      <div className="w-full mt-10 flex items-center justify-center">
+        <img 
+          className="w-80"
+          src="/svg/searching.svg" 
+          alt="girl searching for something with a telescope" 
+        />
+        <div className="w-80 ml-10 bg-white p-5 rounded-md">
+          <h3>Kas ir karjera?</h3>
+          <p>Karjera ir Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, debitis tenetur unde omnis voluptatem tempore, blanditiis, quod illum rem tempora eos eligendi dicta nesciunt in fugiat dolorum provident placeat temporibus.</p>
+        </div>
+      </div>
 
+      <div className="w-full mt-40 flex items-center justify-center">
+        <div className="w-80 mr-10 bg-white p-5 rounded-md">
+          <h3>Filtrācija</h3>
+          <p>Mēs Jums uzdosim pāris jautājumus saistībā ar karjeru, un pēc atbilžu rezultātiem ar filtrācijas algoritma palīdzību atradīsim jums vispiemērotākās profesijas.</p>
+          <button className="mt-5">Veikt aptauju</button>
+        </div>
+        <img 
+          className="w-80"
+          src="/svg/filter.svg" 
+          alt="options floating above some users, who are using filtering function" 
+        />
+      </div>
+
+      <div className="mt-40 w-full flex items-center justify-center">
+        <div className="bg-white p-5 rounded-md flex items-center justify-center flex-col">
+          <h3>Veiciet aptauju, lai atrastu sev piemērotāko profesiju</h3>
+          <img 
+            src="/svg/survey.svg" 
+            alt="a boy taking a survey" 
+            className="w-80 my-5"
+          />
+          <button>Aptauja</button>
+        </div>
+      </div>
+
+      <div className="w-full mt-40 flex items-center justify-center">
+        <img 
+          className="w-80"
+          src="/svg/security.svg" 
+          alt="security protecting users data" 
+        />
+        <div className="w-80 mr-10 bg-white p-5 rounded-md">
+          <h3>Drošība</h3>
+          <p>Jūsu dati netiks saglabāti, vai nodoti reklāmdevējiem, mūsu lapas mērķis ir izglītot bērnus un jauniešus par darba iespējām, kā arī piedāvāt atbilstošākās profesijas nāktonei.</p>
+        </div>
+      </div>
+
+      <Footer />
     </div>
   )
 }
