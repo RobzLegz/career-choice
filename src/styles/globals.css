@@ -30,10 +30,15 @@
     a{
         @apply cursor-pointer;
     }
-    .nav__links{
-        @apply flex w-40 items-center justify-between;
-    }
-    .nav__link{
-        @apply text-medium;
-    }
+}
+
+.nav__links{
+    display: flex;
+    width: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__link{
+
 }
