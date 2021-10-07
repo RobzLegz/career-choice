@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "incremental": true,
+    "isolatedModules": true,
     "target": "es6",
     "strict": true,
     "esModuleInterop": true,
@@ -8,7 +10,6 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "outFile": "../../built/local/tsc.js",
     "sourceMap": true,
     "moduleResolution": "node",
     "lib": [
@@ -31,5 +32,5 @@
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
-  ]
+  ],
 }
