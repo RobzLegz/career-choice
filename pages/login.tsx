@@ -3,6 +3,9 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import Navigation from './../src/components/navigation/Navigation';
 import {login} from "../src/redux/slices/adminSlice"
+
+
+//mans nedarbs
 import {css } from'../src/styles/login'
 
 export default function Find() {
