@@ -27,4 +27,7 @@
     footer{
         @apply w-full py-5 flex items-center justify-between bg-white px-5 md:px-40;
     }
+    a{
+        @apply cursor-pointer;
+    }
 }

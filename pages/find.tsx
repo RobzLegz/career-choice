@@ -22,7 +22,7 @@ export default function Find() {
   return (
     <div className="bg-light-darker">
       <Head>
-        <title>Karjera man</title>
+        <title>Karjera man | Aptauja</title>
       </Head>
 
       <Navigation />

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-light-darker">
       <Head>
-        <title>Karjera man</title>
+        <title>Karjera man | Home</title>
       </Head>
 
       <Navigation />
