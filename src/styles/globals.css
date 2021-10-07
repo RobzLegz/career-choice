@@ -30,6 +30,12 @@
     a{
         @apply cursor-pointer;
     }
+    .theme__container{
+        @apply w-full flex items-center justify-center flex-col py-40;
+    }
+    .theme{
+        @apply bg-ourBlue text-white flex items-center justify-center cursor-pointer mb-5 py-5 hover:bg-ourBlue-main_light transition-all duration-200 ease-in rounded-md;
+    }
 }
 
 .nav__links{
@@ -39,3 +45,12 @@
     justify-content: space-between;
 }
 
+.theme{
+    width: 140px;
+}
+
+.theme__container__themes{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+}

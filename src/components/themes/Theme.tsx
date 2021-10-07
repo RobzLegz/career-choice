@@ -6,7 +6,7 @@ interface Props {
 
 const Theme: React.FC<Props> = ({data}) => {
     return (
-        <div>
+        <div className="theme">
             <h3>{data.name}</h3>
         </div>
     )

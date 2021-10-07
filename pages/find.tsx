@@ -3,14 +3,9 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { getThemes } from './../src/logic/requests/themeOptions';
 import { themeData } from './../src/redux/slices/themeSlice';
-import Theme from './../src/components/themes/Theme';
 import Navigation from './../src/components/navigation/Navigation';
 import { levelData } from './../src/redux/slices/levelSlice';
-import Stage1 from './../src/components/stages/Stage1';
-import Stage2 from './../src/components/stages/Stage2';
-import Stage3 from './../src/components/stages/Stage3';
-import Stage4 from './../src/components/stages/Stage4';
-import Stage5 from './../src/components/stages/Stage5';
+import RenderStage from '../src/hooks/RenderStage';
 
 export default function Find() {
   const themeInfo = useSelector(themeData);
@@ -32,19 +27,7 @@ export default function Find() {
 
       <Navigation />
 
-      {stageInfo.level === 1 ? (
-        <Stage1 />
-      ) : stageInfo.level === 2 ? (
-        <Stage2 />
-      ) : stageInfo.level === 3 ? (
-        <Stage3 />
-      ) : stageInfo.level === 4 ? (
-        <Stage4 />
-      ) : stageInfo.level === 5 ? (
-        <Stage5 />
-      ) : (
-        null
-      )}
+      {(<RenderStage stage={stageInfo.level}/>)}
     </div>
   )
 }
