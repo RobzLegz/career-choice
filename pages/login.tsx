@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import Navigation from './../src/components/navigation/Navigation';
+import {login} from "../src/redux/slices/adminSlice"
 
 export default function Find() {
     const [username, setUsername] = useState("");
@@ -9,16 +11,20 @@ export default function Find() {
     const correctUsername = process.env.USERNAME;
     const correctPassword = process.env.PASSWORD;
 
+    const dispatch = useDispatch();
+
     const submitForm = (e: any) => {
+        e.preventDefault();
+
         if(username === correctUsername && password === correctPassword){
-            
+            dispatch(login());
         }
     }
 
     return (
         <div className="bg-light-darker">
             <Head>
-                <title>Karjera man | Aptauja</title>
+                <title>Karjera man | Login</title>
             </Head>
 
             <Navigation />
