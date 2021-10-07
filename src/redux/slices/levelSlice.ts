@@ -20,6 +20,6 @@ export const {
     derementLevel
 } = levelSlice.actions;
 
-export const levelData = (state: any) => state.level;
+export const levelData = (state: any) => state.levels;
 
 export default levelSlice.reducer;
