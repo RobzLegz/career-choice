@@ -9,20 +9,19 @@ interface Props {
     stage: number;
 }
 
-const renderStage: React.FC<Props> = ({stage}) => {
+const RenderStage: React.FC<Props> = ({stage}) => {
     if(stage === 0){
-        return <Stage1 />
+        return <Stage1 />;
     }else if(stage === 1){
-        return <Stage2 />
+        return <Stage2 />;
     }else if(stage === 2){
-        return <Stage3 />
+        return <Stage3 />;
     }else if(stage === 3){
-        return <Stage4 />
+        return <Stage4 />;
     }else if(stage === 4){
-        return <Stage5 />
+        return <Stage5 />;
     }
-
-    return null
+    return null;
 }
 
-export default renderStage
+export default RenderStage
