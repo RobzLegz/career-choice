@@ -30,4 +30,10 @@
     a{
         @apply cursor-pointer;
     }
+    .nav__links{
+        @apply flex w-40 items-center justify-between;
+    }
+    .nav__link{
+        @apply text-medium;
+    }
 }
