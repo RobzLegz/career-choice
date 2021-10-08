@@ -13,7 +13,7 @@ const Theme: React.FC<Props> = ({data}) => {
     const dispatch = useDispatch();
 
     return (
-        <div className={themeInfo.themes.includes(data) ? "selected__theme theme" : "theme"} onClick={() => dispatch(addTheme(data))}>
+        <div className={themeInfo.themes.some((t: any) => t.name === data.name) ? "selected__theme theme" : "theme"} onClick={() => dispatch(addTheme(data))}>
             <h3>{data.name}</h3>
         </div>
     )
