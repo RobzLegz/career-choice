@@ -35,7 +35,7 @@ export default function Home() {
         <div className="w-80 md:mr-10 bg-white p-5 rounded-md flex md:inline flex-col items-center">
           <h3>Filtrācija</h3>
           <p>Mēs Jums uzdosim pāris jautājumus saistībā ar karjeru, un pēc atbilžu rezultātiem ar filtrācijas algoritma palīdzību atradīsim jums vispiemērotākās profesijas.</p>
-          <button className="mt-5">Veikt aptauju</button>
+          <button className="mt-5" onClick={() => router.push("/find")}>Veikt aptauju</button>
         </div>
         <img 
           className="mt-5 md:mt-0 w-80"
@@ -52,7 +52,7 @@ export default function Home() {
             alt="a boy taking a survey" 
             className="w-80 my-5"
           />
-          <button>Aptauja</button>
+          <button onClick={() => router.push("/find")}>Aptauja</button>
         </div>
       </div>
 
