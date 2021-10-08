@@ -18,7 +18,11 @@ export const themeSlice = createSlice({
             }else if(state.themes.some(t => t.name !== action.payload.name)){
                 state.themes.push(action.payload);
             }else{
-                state.themes.filter(t => t !== action.payload)
+                for (let i = state.themes.length - 1; i >= 0; i--) {
+                    if (state.themes[i].name === action.payload.name) {
+                        state.themes.splice(i, 1);
+                    }
+                }
             }
         },
     },
