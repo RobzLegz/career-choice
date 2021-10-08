@@ -31,7 +31,7 @@
         @apply cursor-pointer;
     }
     .theme__container{
-        @apply w-full flex items-center justify-center flex-col py-40;
+        @apply w-full flex items-center justify-center flex-col py-20;
     }
     .theme{
         @apply bg-ourBlue text-white flex items-center justify-center cursor-pointer mb-5 py-5 hover:bg-ourBlue-main_light transition-all duration-200 ease-in rounded-md;

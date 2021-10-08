@@ -11,9 +11,13 @@ const DisplayData: React.FC<Props> = ({data, stage}) => {
 
     useEffect(() => {
         if(variant === ""){
-            if(data.length % 2 === 0){
+            if(data.length === 2){
+                setVarian("two_elements")
+            }else if(data.length === 1){
+                setVarian("one_element")
+            }else if(data.length % 2 === 0){
                 setVarian("even");
-            }else{
+            }else if(data.length % 2 === 1){
                 setVarian("odd");
             }
         }
@@ -62,6 +66,31 @@ const DisplayData: React.FC<Props> = ({data, stage}) => {
                         })
                     }
                 </div>
+            </div>
+        )
+    }else if(variant === "two_elements"){
+        return (
+            <div className="theme__container">
+                <div className="theme__container__themes">
+                    {
+                        data.map((d: any, i: number) => {
+                            return (
+                                <Theme 
+                                    key={i}
+                                    data={d}
+                                />
+                            )
+                        })
+                    }
+                </div>
+            </div>
+        )
+    }else if(variant === "one_element"){
+        return (
+            <div className="theme__container">
+                <Theme 
+                    data={data[0]}
+                />
             </div>
         )
     }

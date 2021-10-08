@@ -1,50 +1,39 @@
-const categories = [
-    {
-        name: "Sports",
-        stage: 1,
-        info: ""
-    },
-    {
-        name: "Māksla",
-        stage: 1,
-        info: ""
-    },
-    {
-        name: "Matemātika",
-        stage: 1,
-        info: ""
-    },
-    {
-        name: "Valodas",
-        stage: 1,
-        info: ""
-    },
-    {
-        name: "Mājturība",
-        stage: 1,
-        info: "Praktiska darbošanās"
-    },
-    {
-        name: "Datorika",
-        stage: 1,
-        info: "Darbs ar datoru"
-    },
-    {
-        name: "Kulinārija",
-        stage: 1,
-        info: "Darbs ar ēdienu"
-    },
-    {
-        name: "Zooloģija",
-        stage: 1,
-        info: "Darbs ar dzīvniekiem"
-    },
-    {
-        name: "",
-        stage: 1,
-        info: ""
-    },
-];
+const categories = {
+    stage1: [
+        {
+            name: "Sports",
+            info: ""
+        },
+        {
+            name: "Māksla",
+            info: ""
+        },
+        {
+            name: "Matemātika",
+            info: ""
+        },
+        {
+            name: "Valodas",
+            info: ""
+        },
+        {
+            name: "Mājturība",
+            info: "Praktiska darbošanās"
+        },
+        {
+            name: "Datorika",
+            info: "Darbs ar datoru"
+        },
+        {
+            name: "Kulinārija",
+            info: "Darbs ar ēdienu"
+        },
+        {
+            name: "Zooloģija",
+            info: "Darbs ar dzīvniekiem"
+        }
+    ],
+};
 
 const proffessions = [
     {

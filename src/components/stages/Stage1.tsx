@@ -1,32 +1,7 @@
 import React from 'react'
+import { categories } from '../../data/proffessions';
 import DisplayData from '../../hooks/DisplayData';
 
-const data = [
-    {
-        name: "test1"
-    },
-    {
-        name: "test2"
-    },
-    {
-        name: "test3"
-    },
-    {
-        name: "test4"
-    },
-    {
-        name: "test5"
-    },
-    {
-        name: "test6"
-    },
-    {
-        name: "test7"
-    },
-    {
-        name: "test8"
-    }
-]
 
 function Stage1() {
     return (
@@ -36,7 +11,7 @@ function Stage1() {
             </div>
             <DisplayData 
                 stage={1}
-                data={data}
+                data={categories.stage1}
             />
         </div>
     )
