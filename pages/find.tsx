@@ -6,6 +6,11 @@ import { themeData } from './../src/redux/slices/themeSlice';
 import Theme from './../src/components/themes/Theme';
 import Navigation from './../src/components/navigation/Navigation';
 import { levelData } from './../src/redux/slices/levelSlice';
+import Stage1 from './../src/components/stages/Stage1';
+import Stage2 from './../src/components/stages/Stage2';
+import Stage3 from './../src/components/stages/Stage3';
+import Stage4 from './../src/components/stages/Stage4';
+import Stage5 from './../src/components/stages/Stage5';
 
 export default function Find() {
   const themeInfo = useSelector(themeData);
@@ -27,26 +32,19 @@ export default function Find() {
 
       <Navigation />
 
-      <div className="w-full h-24 flex items-center justify-center flex-col">
-        <h1 className="large_heading">Karjera man</h1>
-        {stageInfo.level === 0 ? (
-          <h2>Izvēlies lietas</h2>
-        ) : stageInfo.level === 1 ? (
-          <h2>Izvēlies citas lietas</h2>
-        ) : (
-          <h2>Izvēlies citas lietas</h2>
-        )}
-      </div>
-
-      {themeInfo.themes && themeInfo.themes.map((theme: any, i: number) => {
-        return (
-          <Theme 
-            key={i}
-            data={theme}
-          />
-        )
-      })}
-
+      {stageInfo.level === 1 ? (
+        <Stage1 />
+      ) : stageInfo.level === 2 ? (
+        <Stage2 />
+      ) : stageInfo.level === 3 ? (
+        <Stage3 />
+      ) : stageInfo.level === 4 ? (
+        <Stage4 />
+      ) : stageInfo.level === 5 ? (
+        <Stage5 />
+      ) : (
+        null
+      )}
     </div>
   )
 }
