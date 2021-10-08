@@ -36,6 +36,9 @@
     .theme{
         @apply bg-ourBlue text-white flex items-center justify-center cursor-pointer mb-5 py-5 hover:bg-ourBlue-main_light transition-all duration-200 ease-in rounded-md;
     }
+    .selected__theme{
+        @apply bg-gray-50 border-2 border-ourBlue text-ourBlue hover:bg-gray-50;
+    }
 }
 
 .nav__links{
