@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const levelSlice = createSlice({
     name: "level",
     initialState: {
-        level: 0,
+        level: 1,
     },
     reducers: {
         incrementLevel: (state) => {

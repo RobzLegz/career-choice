@@ -11,7 +11,7 @@ function Stage1() {
             </div>
             <DisplayData 
                 stage={1}
-                data={categories.stage1}
+                data={categories.filter((t: any) => t.stage === 1)}
             />
         </div>
     )
