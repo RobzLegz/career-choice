@@ -13,16 +13,26 @@ export const themeSlice = createSlice({
     initialState,
     reducers: {
         addTheme: (state, action) => {
-            if(state.themes.length === 0){
-                state.themes.push(action.payload);
-            }else if(state.themes.some(t => t.name !== action.payload.name)){
-                state.themes.push(action.payload);
-            }else{
-                for (let i = state.themes.length - 1; i >= 0; i--) {
-                    if (state.themes[i].name === action.payload.name) {
-                        state.themes.splice(i, 1);
+            if(state.themes.includes(action.payload)){
+                let filteredThemes: any[] = state.themes.filter(t => t.name !== action.payload.name);
+                state.themes.forEach(theme => {
+                    if(theme.name !== action.payload.name){
+                        filteredThemes = [...filteredThemes, theme];
                     }
-                }
+                });
+                state.themes = filteredThemes;
+            }else if(state.themes.length === 0){
+                state.themes = [action.payload];
+            }else if(!state.themes.some(t => t.name === action.payload.name) && !state.themes.includes(action.payload)){
+                state.themes = [...state.themes, action.payload];
+            }else{
+                let filteredThemes: any[] = state.themes.filter(t => t.name !== action.payload.name);
+                state.themes.forEach(theme => {
+                    if(theme.name !== action.payload.name){
+                        filteredThemes = [...filteredThemes, theme];
+                    }
+                });
+                state.themes = filteredThemes;
             }
         },
     },
