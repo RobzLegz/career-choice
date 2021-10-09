@@ -58,7 +58,6 @@ export default function Home() {
 
       <div className="w-full mt-10 md:mt-40 flex items-center justify-center flex-col-reverse md:flex-row px-4 md:px-0">
         <img 
-          onClick={() => router.push("/login")}
           className="mt-5 md:mt-0 w-80"
           src="/svg/security.svg" 
           alt="security protecting users data" 
