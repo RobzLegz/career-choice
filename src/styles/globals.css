@@ -42,9 +42,13 @@
     .filter__nextback__container{
         @apply w-80 flex items-center justify-between;
     }
+    .filter__inactive__option{
+        @apply bg-white text-ourBlue;
+    }
     .filter__back__option,
-    .filter__next__option{
-        @apply w-36;
+    .filter__next__option,
+    .filter__inactive__option{
+        @apply w-36 border-2 border-ourBlue transition-all duration-200 ease-in;
     }
 }
 
