@@ -3,21 +3,25 @@ import { createSlice } from "@reduxjs/toolkit";
 export const levelSlice = createSlice({
     name: "level",
     initialState: {
-        level: 1,
+        stage: 1,
     },
     reducers: {
         incrementLevel: (state) => {
-            state.level ++;
+            if(state.stage < 6){
+                state.stage += 1;
+            }
         },
-        derementLevel: (state) => {
-            state.level --;
+        decrementLevel: (state) => {
+            if(state.stage > 1){
+                state.stage -= 1;
+            }
         },
     },
 });
 
 export const { 
     incrementLevel,
-    derementLevel
+    decrementLevel
 } = levelSlice.actions;
 
 export const levelData = (state: any) => state.levels;
