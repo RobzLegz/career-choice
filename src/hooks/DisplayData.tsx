@@ -2,26 +2,41 @@ import React, { useEffect, useState } from 'react'
 import Theme from '../components/themes/Theme';
 
 interface Props{
-    data: any;
+    data: D[];
     stage: number;
 };
 
+interface D{
+    name: string;
+    stage: number;
+    info: string;
+}
+
+
 const DisplayData: React.FC<Props> = ({data, stage}) => {
-    const [variant, setVarian] = useState("");
+    const [variant, setVariant] = useState("");
+    const [prevStage, setPrevStage] = useState(1);
 
     useEffect(() => {
-        if(variant === ""){
-            if(data.length === 2){
-                setVarian("two_elements")
-            }else if(data.length === 1){
-                setVarian("one_element")
-            }else if(data.length % 2 === 0){
-                setVarian("even");
-            }else if(data.length % 2 === 1){
-                setVarian("odd");
+        if(stage === prevStage){
+            if(variant === ""){
+                if(data.length === 0){
+                    setVariant("none")
+                }else if(data.length === 2){
+                    setVariant("two_elements")
+                }else if(data.length === 1){
+                    setVariant("one_element")
+                }else if(data.length % 2 === 0){
+                    setVariant("even");
+                }else if(data.length % 2 === 1){
+                    setVariant("odd");
+                }
             }
+        }else{
+            setPrevStage(stage);
+            setVariant("")
         }
-    }, [data.length, variant]);
+    }, [data.length, variant, stage, prevStage]);
 
     if(variant === "even"){
         return (
@@ -32,7 +47,7 @@ const DisplayData: React.FC<Props> = ({data, stage}) => {
 
                 <div className="theme__container__themes">
                     {
-                        data.slice(1, data.length - 1).map((d: any, i: number) => {
+                        data.slice(1, data.length - 1).map((d: D, i: number) => {
                             return (
                                 <Theme 
                                     key={i}
@@ -56,7 +71,7 @@ const DisplayData: React.FC<Props> = ({data, stage}) => {
                 />
                 <div className="theme__container__themes">
                     {
-                        data.slice(1, data.length).map((d: any, i: number) => {
+                        data.slice(1, data.length).map((d: D, i: number) => {
                             return (
                                 <Theme 
                                     key={i}
@@ -73,7 +88,7 @@ const DisplayData: React.FC<Props> = ({data, stage}) => {
             <div className="theme__container">
                 <div className="theme__container__themes">
                     {
-                        data.map((d: any, i: number) => {
+                        data.map((d: D, i: number) => {
                             return (
                                 <Theme 
                                     key={i}

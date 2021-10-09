@@ -1,7 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+interface Theme{
+    name: string;
+    info: string;
+    stage: number;
+}
+
 interface State {
-    themes: any[],
+    themes: Theme[],
 }
 
 const initialState: State = {
@@ -14,7 +20,7 @@ export const themeSlice = createSlice({
     reducers: {
         addTheme: (state, action) => {
             if(state.themes.includes(action.payload)){
-                let filteredThemes: any[] = state.themes.filter(t => t.name !== action.payload.name);
+                let filteredThemes: Theme[] = state.themes.filter((t: Theme) => t.name !== action.payload.name);
                 state.themes.forEach(theme => {
                     if(theme.name !== action.payload.name){
                         filteredThemes = [...filteredThemes, theme];
@@ -23,11 +29,11 @@ export const themeSlice = createSlice({
                 state.themes = filteredThemes;
             }else if(state.themes.length === 0){
                 state.themes = [action.payload];
-            }else if(!state.themes.some(t => t.name === action.payload.name) && !state.themes.includes(action.payload)){
+            }else if(!state.themes.some((t: Theme) => t.name === action.payload.name) && !state.themes.includes(action.payload)){
                 state.themes = [...state.themes, action.payload];
             }else{
-                let filteredThemes: any[] = state.themes.filter(t => t.name !== action.payload.name);
-                state.themes.forEach(theme => {
+                let filteredThemes: Theme[] = state.themes.filter((t: Theme) => t.name !== action.payload.name);
+                state.themes.forEach((theme: Theme) => {
                     if(theme.name !== action.payload.name){
                         filteredThemes = [...filteredThemes, theme];
                     }

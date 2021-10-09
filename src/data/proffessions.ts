@@ -38,6 +38,51 @@ const categories = [
         name: "Zooloģija",
         info: "Darbs ar dzīvniekiem",
         stage: 1,
+    },
+    {
+        name: "Test",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test1",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test2",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test3",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test4",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test5",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test6",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test7",
+        info: "Just a test",
+        stage: 2,
+    },
+    {
+        name: "Test8",
+        info: "Just a test",
+        stage: 2,
     }
 ];
 
