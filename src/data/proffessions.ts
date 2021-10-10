@@ -117,6 +117,34 @@ const categories = [
         stage: 2,
         id: 17,
         parent_id: 1,
+    },
+    {
+        name: "Testss",
+        info: "Just a test",
+        stage: 3,
+        id: 18,
+        parent_id: 15,
+    },
+    {
+        name: "Test6",
+        info: "Just a test",
+        stage: 3,
+        id: 19,
+        parent_id: 15,
+    },
+    {
+        name: "Test7",
+        info: "Just a test",
+        stage: 3,
+        id: 20,
+        parent_id: 14,
+    },
+    {
+        name: "Test8",
+        info: "Just a test",
+        stage: 3,
+        id: 21,
+        parent_id: 14,
     }
 ];
 

@@ -11,6 +11,8 @@ interface T{
     name: string;
     stage: number;
     info: string;
+    id: number;
+    parent_id: number | null;
 }
 
 const Theme: React.FC<Props> = ({data}) => {
@@ -19,7 +21,7 @@ const Theme: React.FC<Props> = ({data}) => {
 
     if(data){
         return (
-            <div className={themeInfo.themes.some((t: T) => t.name === data.name) ? "selected__theme theme" : "theme"} onClick={() => dispatch(addTheme(data))}>
+            <div className={themeInfo.themes.some((t: T) => t.id === data.id) ? "selected__theme theme" : "theme"} onClick={() => dispatch(addTheme(data))}>
                 <h3>{data.name}</h3>
             </div>
         )
