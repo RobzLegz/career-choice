@@ -64,7 +64,7 @@ export default function Home() {
         />
         <div className="w-80 md:mr-10 bg-white p-5 rounded-md flex md:inline flex-col items-center">
           <h3>Drošība</h3>
-          <p>Jūsu dati netiks saglabāti, vai nodoti reklāmdevējiem, mūsu lapas mērķis ir izglītot bērnus un jauniešus par darba iespējām, kā arī piedāvāt atbilstošākās profesijas nāktonei.</p>
+          <p>Jūsu dati netiks saglabāti, vai nodoti reklāmdevējiem, mūsu lapas mērķis ir izglītot bērnus un jauniešus par darba iespējām, kā arī piedāvāt atbilstošākās profesijas nāktonei. Mūsu aplikācijas <a href="https://github.com/RobzLegz/karjera-man" className="text__linking">kods</a> ir publiski pieejams un visiem redzams.</p>
         </div>
       </div>
 

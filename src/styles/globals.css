@@ -40,7 +40,7 @@
         @apply bg-gray-50 text-ourBlue hover:bg-gray-50;
     }
     .filter__nextback__container{
-        @apply w-80 flex items-center justify-between;
+        @apply w-80 flex items-center justify-center;
     }
     .filter__inactive__option{
         @apply bg-white text-ourBlue;
@@ -49,6 +49,9 @@
     .filter__next__option,
     .filter__inactive__option{
         @apply w-36 border-2 border-ourBlue transition-all duration-200 ease-in;
+    }
+    .text__linking{
+        @apply text-ourBlue underline;
     }
 }
 
