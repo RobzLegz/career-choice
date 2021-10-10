@@ -21,7 +21,7 @@ const AddStageButton = () => {
         }
     }, [themeInfo.themes, stageInfo.stage]);
 
-    return <button className={active ? "filter__back__option" : "filter__inactive__option"} onClick={() => incrementStage(dispatch, active)}>{languageInfo.text.find.buttonContainer.forwardButton}</button>
+    return <button className={active ? "filter__back__option" : "filter__inactive__option"} onClick={() => incrementStage(dispatch, active)}>{stageInfo.stage === 3 ? languageInfo.text.find.buttonContainer.finishButton : languageInfo.text.find.buttonContainer.forwardButton}</button>
 }
 
 export default AddStageButton

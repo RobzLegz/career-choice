@@ -31,7 +31,7 @@
         @apply cursor-pointer;
     }
     .theme__container{
-        @apply w-full flex items-center justify-center flex-col py-20;
+        @apply w-full flex items-center justify-center flex-col py-10;
     }
     .theme{
         @apply bg-ourBlue-secondary_light text-white flex items-center justify-center cursor-pointer mb-5 py-5 hover:bg-ourBlue-main_light border-2 border-ourBlue transition-all duration-200 ease-in rounded-md;
@@ -53,6 +53,18 @@
     .text__linking{
         @apply text-ourBlue underline;
     }
+    .profession__container{
+        @apply w-full px-2 flex flex-col items-center justify-start;
+    }
+    .proffession{
+        @apply w-full flex flex-col items-start justify-start py-2 px-5 rounded-sm bg-white mb-2 relative;
+    }
+    .proffession__header{
+        @apply w-full flex items-center justify-between;
+    }
+    .page{
+        @apply h-screen bg-light-darker;
+    }
 }
 
 .nav__links{
@@ -70,4 +82,10 @@
     width: 300px;
     display: grid;
     grid-template-columns: repeat(2, 150px);
+}
+
+@media (min-width: 640px) {
+    .profession__container{
+        width: 620px;
+    }
 }

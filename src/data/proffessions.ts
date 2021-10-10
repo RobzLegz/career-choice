@@ -126,21 +126,21 @@ const categories = [
         parent_id: 15,
     },
     {
-        name: "Test6",
+        name: "Test16",
         info: "Just a test",
         stage: 3,
         id: 19,
         parent_id: 15,
     },
     {
-        name: "Test7",
+        name: "Test17",
         info: "Just a test",
         stage: 3,
         id: 20,
         parent_id: 14,
     },
     {
-        name: "Test8",
+        name: "Test20",
         info: "Just a test",
         stage: 3,
         id: 21,
@@ -150,8 +150,58 @@ const categories = [
 
 const proffessions = [
     {
-
+        name: "Proffession1", // Profesijas nosaukums piemēram Programmēšanas tehniķis
+        info: "some info about proffession", // Informācija par profesiju (pienākumi, darba apstākļi u.t.t.)
+        tags: [
+            "Test20"
+        ], // Pēc kādām kategorijām atpazīs šo profesiju
+        salary: "500" // Vidējais atalgojums
     },
+    {
+        name: "Proffession2",
+        info: "some info about proffession",
+        tags: [
+            "Testss",
+            "Test17"
+        ],
+        salary: "100"
+    },
+    {
+        name: "Labākā profesija",
+        info: "some info about proffession",
+        tags: [
+            "Matemātika",
+        ],
+        salary: "100"
+    },
+    {
+        name: "Mašīna",
+        info: "some info about proffession",
+        tags: [
+            "Māksla",
+        ],
+        salary: "100"
+    },
+    {
+        name: "Latvietis",
+        info: "some info about proffession",
+        tags: [
+            "Sports",
+            "Testss",
+            "Test17"
+        ],
+        salary: "100"
+    },
+    {
+        name: "Proffession2",
+        info: "some info about proffession",
+        tags: [
+            "Test16",
+            "Testss",
+            "Test17"
+        ],
+        salary: "100"
+    }
 ];
 
 export {categories, proffessions};
