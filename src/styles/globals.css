@@ -63,7 +63,7 @@
         @apply w-full flex items-center justify-between;
     }
     .page{
-        @apply h-screen bg-light-darker;
+        @apply min-h-screen bg-light-darker;
     }
 }
 
