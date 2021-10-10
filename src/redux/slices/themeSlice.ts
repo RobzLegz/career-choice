@@ -22,7 +22,7 @@ export const themeSlice = createSlice({
     reducers: {
         addTheme: (state, action) => {
             if(state.themes.includes(action.payload)){
-                let filteredThemes: Theme[] = state.themes.filter((t: Theme) => t.name !== action.payload.name);
+                let filteredThemes: Theme[] = state.themes.filter((t: Theme) => t.id !== action.payload.id);
                 state.themes.forEach((theme: Theme) => {
                     if(theme.name !== action.payload.name){
                         filteredThemes = [...filteredThemes, theme];
@@ -31,10 +31,10 @@ export const themeSlice = createSlice({
                 state.themes = filteredThemes;
             }else if(state.themes.length === 0){
                 state.themes = [action.payload];
-            }else if(!state.themes.some((t: Theme) => t.name === action.payload.name) && !state.themes.includes(action.payload)){
+            }else if(!state.themes.some((t: Theme) => t.id === action.payload.id) && !state.themes.includes(action.payload)){
                 state.themes = [...state.themes, action.payload];
             }else{
-                let filteredThemes: Theme[] = state.themes.filter((t: Theme) => t.name !== action.payload.name);
+                let filteredThemes: Theme[] = state.themes.filter((t: Theme) => t.id !== action.payload.id);
                 state.themes.forEach((theme: Theme) => {
                     if(theme.name !== action.payload.name){
                         filteredThemes = [...filteredThemes, theme];
