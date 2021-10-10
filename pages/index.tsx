@@ -27,7 +27,7 @@ export default function Home() {
         />
         <div className="w-80 md:ml-10 bg-white p-5 rounded-md flex md:inline flex-col items-center">
           <h3>Kas ir karjera?</h3>
-          <p>Karjera ir Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, debitis tenetur unde omnis voluptatem tempore, blanditiis, quod illum rem tempora eos eligendi dicta nesciunt in fugiat dolorum provident placeat temporibus.</p>
+          <p>Karjera ir cilvēka mērķtiecīga darbība savu kompetenču (spēju, prasmju, zināšanu) pilnveidei un izpausmei mūža garumā. Karjeras veidošana ir nepārtraukts process, kura gaitā cilvēks izmanto informāciju par sevi un apkārtējo pasauli, analizē un pielieto to, lai izvēlētos savu nodarbošanās jomu un pēc tam jau konkrētu profesiju. Cilvēks pats piedalās savas dzīves (karjeras) veidošanā un plānošanā.</p>
         </div>
       </div>
 
