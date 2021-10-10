@@ -31,10 +31,10 @@
         @apply cursor-pointer;
     }
     .theme__container{
-        @apply w-full flex items-center justify-center flex-col py-10;
+        @apply w-full flex items-center justify-center flex-col;
     }
     .theme{
-        @apply bg-ourBlue-secondary_light text-white flex items-center justify-center cursor-pointer mb-5 py-5 hover:bg-ourBlue-main_light border-2 border-ourBlue transition-all duration-200 ease-in rounded-md;
+        @apply bg-ourBlue-secondary_light text-white flex items-center justify-center cursor-pointer mb-5 py-2 md:py-5 hover:bg-ourBlue-main_light border-2 border-ourBlue transition-all duration-200 ease-in rounded-md;
     }
     .selected__theme{
         @apply bg-gray-50 text-ourBlue hover:bg-gray-50;
@@ -54,7 +54,7 @@
         @apply text-ourBlue underline;
     }
     .profession__container{
-        @apply w-full px-2 flex flex-col items-center justify-start;
+        @apply w-full px-2 flex flex-col items-center justify-start pb-10;
     }
     .proffession{
         @apply w-full flex flex-col items-start justify-start py-2 px-5 rounded-sm bg-white mb-2 relative;

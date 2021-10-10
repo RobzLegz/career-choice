@@ -15,7 +15,7 @@ function Footer() {
                     <li>{languageInfo.text.global.footer.pages.option2}</li>
                 </ul>
             </div>
-            <div>
+            <div className="hidden sm:visible">
                 <h4>{languageInfo.text.global.footer.media.heading}</h4>
                 <ul>
                     <li>Instagram</li>

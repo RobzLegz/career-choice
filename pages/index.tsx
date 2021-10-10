@@ -49,7 +49,7 @@ export default function Home() {
 
       <div className="mt-10 md:mt-40 w-full flex items-center justify-center px-4 md:px-0">
         <div className="bg-white p-5 rounded-md flex items-center justify-center flex-col">
-          <h3>{languageInfo.text.home.cards.card3.heading}</h3>
+          <h3 className="text-center">{languageInfo.text.home.cards.card3.heading}</h3>
           <img 
             src="/svg/survey.svg" 
             alt="a boy taking a survey" 
