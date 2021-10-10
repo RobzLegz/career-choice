@@ -53,6 +53,12 @@
     .text__linking{
         @apply text-ourBlue underline;
     }
+    .profession__container{
+        @apply w-full px-2 grid grid-cols-1;
+    }
+    .proffession{
+        @apply w-full flex flex-col items-start justify-start p-5 rounded-sm bg-white;
+    }
 }
 
 .nav__links{
@@ -70,4 +76,10 @@
     width: 300px;
     display: grid;
     grid-template-columns: repeat(2, 150px);
+}
+
+@media (min-width: 640px) {
+    .profession__container{
+        width: 620px;
+    }
 }
