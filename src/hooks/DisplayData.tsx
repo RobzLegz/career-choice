@@ -10,6 +10,8 @@ interface D{
     name: string;
     stage: number;
     info: string;
+    id: number;
+    parent_id: number | null;
 }
 
 
