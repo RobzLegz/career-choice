@@ -21,7 +21,7 @@ export const themeSlice = createSlice({
         addTheme: (state, action) => {
             if(state.themes.includes(action.payload)){
                 let filteredThemes: Theme[] = state.themes.filter((t: Theme) => t.name !== action.payload.name);
-                state.themes.forEach(theme => {
+                state.themes.forEach((theme: Theme) => {
                     if(theme.name !== action.payload.name){
                         filteredThemes = [...filteredThemes, theme];
                     }

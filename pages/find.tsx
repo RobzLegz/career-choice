@@ -7,12 +7,6 @@ import {levelData} from "../src/redux/slices/levelSlice";
 import {categories} from "../src/data/proffessions";
 import StageButtonContainer from "../src/components/containers/buttonContainer/StageButtonContainer";
 
-interface T{
-  name: string;
-  stage: number;
-  info: string;
-}
-
 export default function Find() {
   const stageInfo = useSelector(levelData);
 
@@ -28,7 +22,7 @@ export default function Find() {
 
       <DisplayData 
         stage={stageInfo.stage}
-        data={categories.filter((t: T) => t.stage === stageInfo.stage)}
+        data={categories.filter(t => t.stage === stageInfo.stage)}
       />
 
       <StageButtonContainer />

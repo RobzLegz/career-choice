@@ -17,7 +17,10 @@ function DecrementStageButton() {
         }
     }, [stageInfo.stage]);
 
-    return <button className={active ? "filter__back__option" : "filter__inactive__option"} onClick={() => decrementStage(dispatch, active)}>Atpakaļ</button>
+    if(active){
+        return <button className={active ? "filter__back__option mr-5" : "filter__inactive__option"} onClick={() => decrementStage(dispatch, active)}>Atpakaļ</button>
+    }
+    return null
 }
 
 export default DecrementStageButton
