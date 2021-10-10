@@ -10,7 +10,7 @@ export default function Find() {
   const languageInfo = useSelector(languageData);
 
   return (
-    <div className="bg-light-darker flex flex-col items-center">
+    <div className="page flex flex-col items-center">
       <Head>
         <title>{languageInfo.text.find.head.title}</title>
       </Head>

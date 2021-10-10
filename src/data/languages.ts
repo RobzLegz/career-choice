@@ -83,7 +83,9 @@ const languages = {
                 finishButton: "Rezultāti",
             },
             position: {
-                salaryText: "Vidējā alga"
+                salaryText: "Vidējā alga",
+                loadMore: "Ielādēt vēl",
+                accuracyText: "atbilstība"
             }
         }
     },

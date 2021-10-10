@@ -4,9 +4,11 @@ import { languageData } from './../../redux/slices/languageSlice';
 
 interface Data{
     name: string;
-    salary: string;
     info: string;
+    salary: string;
     tags: string[];
+    accuracy: number;
+    percentage: string;
 }
 
 interface Props{
@@ -18,7 +20,10 @@ const Proffession: React.FC<Props> = ({data}) => {
 
     return (
         <div className="proffession">
-            <h3>{data.name}</h3>
+            <div className="proffession__header">
+                <h3>{data.name}</h3>
+                <span>{data.percentage}% {languageInfo.text.find.position.accuracyText}</span>
+            </div>
             <p>{data.info}</p>
             <p>{languageInfo.text.find.position.salaryText}: {data.salary}€</p>
         </div>

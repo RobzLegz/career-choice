@@ -12,17 +12,20 @@ function RenderCategories() {
     const themeInfo = useSelector(themeData);
 
     const [professions, setProfessions] = useState([]);
+    const [loadMoreProfessions, setLoadMoreProfessions] = useState(false);
 
     useEffect(() => {
         if(stageInfo.stage === 4){
-            getProffessions(themeInfo.themes, setProfessions);
+            getProffessions(themeInfo.themes, setProfessions, loadMoreProfessions);
         }
-    }, [stageInfo.stage])
+    }, [stageInfo.stage, loadMoreProfessions])
 
     if(stageInfo.stage === 4){
         return (
             <DisplayProffessions 
                 professions={professions}
+                loadMoreProfessions={loadMoreProfessions}
+                setLoadMoreProfessions={setLoadMoreProfessions}
             />
         )
     }else{

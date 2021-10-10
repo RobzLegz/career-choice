@@ -57,10 +57,13 @@
         @apply w-full px-2 flex flex-col items-center justify-start;
     }
     .proffession{
-        @apply w-full flex flex-col items-start justify-start p-5 rounded-sm bg-white mb-2;
+        @apply w-full flex flex-col items-start justify-start py-2 px-5 rounded-sm bg-white mb-2 relative;
+    }
+    .proffession__header{
+        @apply w-full flex items-center justify-between;
     }
     .page{
-        @apply h-full bg-light-darker;
+        @apply h-screen bg-light-darker;
     }
 }
 

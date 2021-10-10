@@ -166,6 +166,42 @@ const proffessions = [
         ],
         salary: "100"
     },
+    {
+        name: "Labākā profesija",
+        info: "some info about proffession",
+        tags: [
+            "Matemātika",
+        ],
+        salary: "100"
+    },
+    {
+        name: "Mašīna",
+        info: "some info about proffession",
+        tags: [
+            "Māksla",
+        ],
+        salary: "100"
+    },
+    {
+        name: "Latvietis",
+        info: "some info about proffession",
+        tags: [
+            "Sports",
+            "Testss",
+            "Test17"
+        ],
+        salary: "100"
+    },
+    {
+        name: "Proffession2",
+        info: "some info about proffession",
+        tags: [
+            "Test16",
+            "Testss",
+            "Test17"
+        ],
+        salary: "100"
+    }
 ];
 
 export {categories, proffessions};

@@ -1,29 +1,30 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import Proffession from '../components/proffession/Proffession';
-import { levelData } from '../redux/slices/levelSlice';
-import { themeData } from '../redux/slices/themeSlice';
+import { languageData } from '../redux/slices/languageSlice';
 
-interface Props{
-    professions: any;
+interface Proffession{
+    name: string;
+    info: string;
+    salary: string;
+    tags: string[];
+    accuracy: number;
+    percentage: string;
 }
 
-const DisplayProffessions: React.FC<Props> = ({professions}) => {
-    const stageInfo = useSelector(levelData);
-    const themeInfo = useSelector(themeData);
+interface Props{
+    professions: Proffession[];
+    setLoadMoreProfessions: any;
+    loadMoreProfessions: boolean;
+}
+
+const DisplayProffessions: React.FC<Props> = ({professions, loadMoreProfessions, setLoadMoreProfessions}) => {
+    const languageInfo = useSelector(languageData);
 
     return (
         <div className="profession__container">
-            {
-                professions.map((profession: any, i: number) => {
-                    return (
-                        <Proffession 
-                            key={i}
-                            data={profession}
-                        />
-                    )
-                })
-            }
+            {professions.map((profession: any, i: number) => <Proffession key={i} data={profession}/>)}
+            {!loadMoreProfessions && <button className="mt-5" onClick={() => setLoadMoreProfessions(true)}>{languageInfo.text.find.position.loadMore}</button>}
         </div>
     )
 }

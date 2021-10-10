@@ -10,7 +10,7 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <div className="bg-light-darker">
+    <div className="page">
       <Head>
         <title>{languageInfo.text.home.head.title}</title>
       </Head>
