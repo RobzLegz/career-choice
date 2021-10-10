@@ -4,6 +4,8 @@ interface Theme{
     name: string;
     info: string;
     stage: number;
+    id: number;
+    parent_id: null | number;
 }
 
 interface State {
