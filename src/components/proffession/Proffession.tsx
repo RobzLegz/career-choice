@@ -20,7 +20,7 @@ const Proffession: React.FC<Props> = ({data}) => {
         <div className="proffession">
             <h3>{data.name}</h3>
             <p>{data.info}</p>
-            <p>{languageInfo.text.find.position.salaryText}: {data.salary}</p>
+            <p>{languageInfo.text.find.position.salaryText}: {data.salary}€</p>
         </div>
     )
 }
