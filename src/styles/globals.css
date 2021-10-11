@@ -22,7 +22,7 @@
         @apply px-5 py-2 bg-ourBlue text-white text-average rounded-md;
     }
     nav{
-        @apply w-full p-5 bg-white flex items-center justify-between;
+        @apply w-full py-3 px-5 bg-white flex items-center justify-start md:justify-between flex-col md:flex-row;
     }
     footer{
         @apply w-full py-5 flex items-center justify-between bg-white px-5 md:px-40;
@@ -65,11 +65,13 @@
     .page{
         @apply min-h-screen bg-light-darker;
     }
+    .nav__link{
+        @apply ml-4;
+    }
 }
 
 .nav__links{
     display: flex;
-    width: 120px;
     align-items: center;
     justify-content: space-between;
 }
