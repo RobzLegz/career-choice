@@ -16,15 +16,35 @@ function Navigation() {
             <ul className="nav__links">
                 <li className="nav__link"><Link href="/">{languageInfo.text.global.navigation.links.link1}</Link></li>
                 <li className="nav__link"><Link href="/find">{languageInfo.text.global.navigation.links.link2}</Link></li>
-                <li className="language__changer">
-                    {
-                        supportedLanguages.map((language) => (
-                            <div className="language__container">
-                                <img src={language.flag} alt={`${language.language} flag`} />
-                                <p>{language.short}</p>
-                            </div>
-                        ))
-                    }
+                <li className={`${languageChangerActive ? "" : ""}`}>
+                    {!languageChangerActive ? (
+                        <div className="ml-5" onClick={() => setLanguageChangerActive(true)}>
+                            {
+                                supportedLanguages.map((l) => {
+                                    if(languageInfo.lang === l.short){
+                                        return (
+                                            <div className="language__container">
+                                                <img src={l.flag} alt={`${l.language} flag`} />
+                                                <p>{l.short}</p>
+                                            </div>
+                                        )
+                                    }
+                                })
+                            }
+                        </div>
+                    ) : (
+                        <>
+                            {
+                                supportedLanguages.map((language) => (
+                                    <div className="language__container">
+                                        <img src={language.flag} alt={`${language.language} flag`} />
+                                        <p>{language.short}</p>
+                                    </div>
+                                ))
+                            }
+                        </>
+                    )}
+                    
                 </li>
             </ul>
         </nav>
