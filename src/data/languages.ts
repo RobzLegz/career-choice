@@ -165,71 +165,71 @@ const languages = {
         global: {
             navigation: {
                 links: {
-                    link1: "Sākums",
-                    link2: "Aptauja"
+                    link1: "Начало",
+                    link2: "Опрос"
                 }
             },
             footer: {
                 pages: {
-                    heading: "Lapas",
-                    option1: "Sākums",
-                    option2: "Aptauja"
+                    heading: "страницы",
+                    option1: "Начало",
+                    option2: "Опрос"
                 },
                 media: {
-                    heading: "Sociālie tīkli",
-                    option1: "Instagram",
-                    option2: "github"
+                    heading: "Социальные сети",
+                    option1: "инстеграм",
+                    option2: "гитхаб"
                 }
             }
         },
         home: {
             head: {
-                title: "Karjera man | Sākums"
+                title: "Карьера для меня | Начало"
             },
             header: {
-                heading: "Karjera man",
-                subHeading: "Atrodi sev piemērotākās profesijas un karjeras iespējas"
+                heading: "Карьера для меня",
+                subHeading: "Найдите наиболее подходящую для вас профессию и возможности карьерного роста"
             },
             cards: {
                 card1: {
-                    heading: "Kas ir karjera?",
-                    text: "Karjera ir cilvēka mērķtiecīga darbība savu kompetenču (spēju, prasmju, zināšanu) pilnveidei un izpausmei mūža garumā. Karjeras veidošana ir nepārtraukts process, kura gaitā cilvēks izmanto informāciju par sevi un apkārtējo pasauli, analizē un pielieto to, lai izvēlētos savu nodarbošanās jomu un pēc tam jau konkrētu profesiju. Cilvēks pats piedalās savas dzīves (karjeras) veidošanā un plānošanā."
+                    heading: "Что такое карьера?",
+                    text: "Карьера - целенаправленная деятельность человека для совершенствования и проявления своей компетенции (способностей, умений, знаний) на протяжении всей жизни. Формирование карьеры является непрерывным процессом, в ходе которого человек использует информацию о себе и окружающем мире, анализирует и применяет его, чтобы выбрать сферу своего занятий и затем уже определенную профессию. Человек сам участвует в формировании и планировании своей жизни (карьеры)."
                 },
                 card2: {
-                    heading: "Filtrācija",
-                    text: "Mēs Jums uzdosim pāris jautājumus saistībā ar karjeru, un pēc atbilžu rezultātiem ar filtrācijas algoritma palīdzību atradīsim jums vispiemērotākās profesijas.",
-                    button: "Veikt aptauju"
+                    heading: "фильтрация",
+                    text: "Мы зададим вам несколько вопросов, связанных с карьерой, и по результатам ответов с помощью алгоритма фильтрации найдем наиболее подходящие профессии.",
+                    button: "Провести опрос"
                 },
                 card3: {
-                    heading: "Veiciet aptauju, lai atrastu sev piemērotāko profesiju",
-                    button: "Aptauja"
+                    heading: "Проведите опрос, чтобы найти подходящую профессию",
+                    button: "опрос"
                 },
                 card4: {
-                    heading: "Drošība",
-                    button: "Aptauja",
-                    textPart1: "Jūsu dati netiks saglabāti, vai nodoti reklāmdevējiem, mūsu lapas mērķis ir izglītot bērnus un jauniešus par darba iespējām, kā arī piedāvāt atbilstošākās profesijas nāktonei. Mūsu aplikācijas",
-                    link: "kods",
-                    textPart2: "ir publiski pieejams un visiem redzams."
+                    heading: "безопасность",
+                    button: "опрос",
+                    textPart1: "Ваши данные не будут сохранены или переданы рекламодателям, цель нашей страницы - образование детей и подросткам о возможностях работы, а также предлагать подходящую профессию. Наши приложения",
+                    link: "код",
+                    textPart2: "общедоступен и виден всем."
                 },
             }
         },
         find: {
             head: {
-                title: "Karjera man | Aptauja"
+                title: "Карьера для меня | Опрос"
             },
             header: {
-                heading: "Izvēlieties lietas",
-                positionHeading: "Jums atlasītās profesijas"
+                heading: "Выбери вещи",
+                positionHeading: "Выбранные для вас профессии"
             },
             buttonContainer: {
-                backButton: "Atpakaļ",
-                forwardButton: "Tālāk",
-                finishButton: "Rezultāti",
+                backButton: "Назад",
+                forwardButton: "вперед",
+                finishButton: "результаты",
             },
             position: {
-                salaryText: "Vidējā alga",
-                loadMore: "Ielādēt vēl",
-                accuracyText: "atbilstība"
+                salaryText: "Средняя зарплата",
+                loadMore: "Скачать еще",
+                accuracyText: "соответствие"
             }
         }
     },
