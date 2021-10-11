@@ -81,6 +81,9 @@ const languages = {
                 backButton: "Atpakaļ",
                 forwardButton: "Tālāk",
                 finishButton: "Rezultāti",
+            },
+            position: {
+                salaryTex: "Vidējā alga"
             }
         }
     },

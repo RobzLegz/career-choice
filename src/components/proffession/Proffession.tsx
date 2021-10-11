@@ -16,6 +16,7 @@ const Proffession: React.FC<Props> = ({data}) => {
         <div className="proffession">
             <h3>{data.name}</h3>
             <p>{data.info}</p>
+            <p>{data.salary}</p>
         </div>
     )
 }
