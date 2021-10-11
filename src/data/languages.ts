@@ -83,7 +83,7 @@ const languages = {
                 finishButton: "Rezultāti",
             },
             position: {
-                salaryTex: "Vidējā alga"
+                salaryText: "Vidējā alga"
             }
         }
     },
