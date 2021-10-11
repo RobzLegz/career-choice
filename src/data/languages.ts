@@ -112,10 +112,10 @@ const languages = {
         },
         home: {
             head: {
-                title: "Karjera man | Home"
+                title: "Career for me | Home"
             },
             header: {
-                heading: "Karjera man",
+                heading: "Career for me",
                 subHeading: "Find the most suitable profession and career opportunities for you"
             },
             cards: {
@@ -135,9 +135,9 @@ const languages = {
                 card4: {
                     heading: "Security",
                     button: "Survey",
-                    textPart1: "Your data will not be stored or passed on to advertisers, our page aims to educate children and teens about job opportunities, and to offer the right profession for the future. Mūsu aplikācijas",
+                    textPart1: "Your data will not be stored or passed on to advertisers, our page aims to educate children and teens about job opportunities, and to offer the right profession for the future. Our application",
                     link: "code",
-                    textPart2: "Is publicly available and visible to everyone."
+                    textPart2: "is publicly available and visible to everyone."
                 },
             }
         },
