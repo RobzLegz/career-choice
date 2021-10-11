@@ -89,7 +89,7 @@ const languages = {
             }
         }
     },
-    english: {
+    english: { //Strādā jopptvai
         global: {
             navigation: {
                 links: {
