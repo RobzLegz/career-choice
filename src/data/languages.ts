@@ -121,7 +121,7 @@ const languages = {
             cards: {
                 card1: {
                     heading: "What is career?", 
-                    text: "Career is man porposeful activity their competencies (abilities, skills, knowledge) for devlopment and expression throughout life. Career building is a continuous process in which a person usesinformation about himself and the world around him, analyzes and applies it to choose his or her field of occupation and then already a particular profession. Man himself participates in building and planning his own life (career)."
+                    text: "Career is man porposeful activity their competencies (abilities, skills, knowledge) for devlopment and expression throughout life. Career building is a continuous process in which a person use information about himself and the world around him, analyzes and applies it to choose his or her field of occupation and then already a particular profession. Man himself participates in building and planning his own life (career)."
                 },
                 card2: {
                     heading: "Filtration",
