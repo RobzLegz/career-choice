@@ -11,6 +11,10 @@ export const languageSlice = createSlice({
             if(supportedLanguages.some(l => l.short === action.payload)){
                 if(action.payload === "LV"){
                     state.text = languages.latvian;
+                }else if(action.payload === "EN"){
+                    state.text = languages.english;
+                }else if(action.payload === "RU"){
+                    state.text = languages.russian;
                 }
             }
         }
