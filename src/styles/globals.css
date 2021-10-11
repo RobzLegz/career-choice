@@ -31,7 +31,7 @@
         @apply cursor-pointer;
     }
     .theme__container{
-        @apply w-full flex items-center justify-center flex-col py-20;
+        @apply w-full flex items-center justify-center flex-col py-10;
     }
     .theme{
         @apply bg-ourBlue-secondary_light text-white flex items-center justify-center cursor-pointer mb-5 py-5 hover:bg-ourBlue-main_light border-2 border-ourBlue transition-all duration-200 ease-in rounded-md;
@@ -58,6 +58,9 @@
     }
     .proffession{
         @apply w-full flex flex-col items-start justify-start p-5 rounded-sm bg-white;
+    }
+    .page{
+        @apply h-full bg-light-darker;
     }
 }
 
