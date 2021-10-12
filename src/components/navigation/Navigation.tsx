@@ -26,23 +26,24 @@ function Navigation() {
                     {!languageChangerActive ? (
                         <div className="w-16 h-5" onClick={() => setLanguageChangerActive(true)}>
                             {
-                                supportedLanguages.map((l) => {
+                                supportedLanguages.map((l, i: number) => {
                                     if(languageInfo.lang === l.short){
                                         return (
-                                            <div className="w-full h-full flex items-center justify-between cursor-pointer">
+                                            <div key={i} className="w-full h-full flex items-center justify-between cursor-pointer">
                                                 <img className="w-10 h-full" src={l.flag} alt={`${l.language} flag`} />
                                                 <p className="ml-1">{l.short}</p>
                                             </div>
                                         )
                                     }
+                                    return null;
                                 })
                             }
                         </div>
                     ) : (
                         <>
                             {
-                                supportedLanguages.map((language) => (
-                                    <div className="h-5 flex ml-3 items-center cursor-pointer" onClick={() => changeLang(language.short)}>
+                                supportedLanguages.map((language, i: number) => (
+                                    <div key={i} className="h-5 flex ml-3 items-center cursor-pointer" onClick={() => changeLang(language.short)}>
                                         <img className="w-10 h-full" src={language.flag} alt={`${language.language} flag`} />
                                         <p className="ml-1">{language.short}</p>
                                     </div>
