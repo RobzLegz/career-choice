@@ -96,7 +96,7 @@ const categories = [
         parent_id: null
     },
     {
-        name: "Test",
+        name: "Komandu sports",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -108,7 +108,7 @@ const categories = [
         parent_id: 1,
     },
     {
-        name: "Test1",
+        name: "Individuāls sports",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -120,7 +120,7 @@ const categories = [
         parent_id: 1,
     },
     {
-        name: "Test2",
+        name: "Vieglatlētika",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -132,7 +132,7 @@ const categories = [
         parent_id: 1,
     },
     {
-        name: "Test3",
+        name: "Cīņas sports",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -144,7 +144,7 @@ const categories = [
         parent_id: 1,
     },
     {
-        name: "Test4",
+        name: "Ūdens sports",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -156,7 +156,7 @@ const categories = [
         parent_id: 1,
     },
     {
-        name: "Test5",
+        name: "Šaušanas sports",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -165,42 +165,6 @@ const categories = [
         info: "Just a test",
         stage: 2,
         id: 14,
-        parent_id: 1,
-    },
-    {
-        name: "Test6",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 15,
-        parent_id: 1,
-    },
-    {
-        name: "Test7",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 16,
-        parent_id: 1,
-    },
-    {
-        name: "Test8",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 17,
         parent_id: 1,
     },
     {
