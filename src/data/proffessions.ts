@@ -168,18 +168,102 @@ const categories = [
         parent_id: 1,
     },
     {
-        name: "Futbols",
+        name: "Tēlotāj māksla",
         translate: {
             lv: "Sports",
             en: "Sport",
             ru: "Sport"
         },
         info: "Just a test",
-        stage: 3,
-        id: 15,
-        parent_id: 9,
-    },    
-      {
+        stage: 2,
+        id: 45,
+        parent_id: 2,
+    },
+     {
+        name: "Monumetālā glez.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 46,
+        parent_id: 2,
+    },
+     {
+        name: "Monumentāla tēlniec.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 47,
+        parent_id: 2,
+    },
+     {
+        name: "Kolāža",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 48,
+        parent_id: 2,
+    },
+    {
+        name: "Latviešu val.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 60,
+        parent_id: 4,
+    },
+    {
+        name: "Angļu val.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 61,
+        parent_id: 4,
+    },
+    {
+        name: "Krievu val.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 62,
+        parent_id: 4,
+    },
+    {
+        name: "Literatūra",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 63,
+        parent_id: 4,
+    },
+     {
         name: "Basketbols",
         translate: {
             lv: "Sports",
@@ -454,18 +538,6 @@ const categories = [
         id: 38,
         parent_id: 13,
     },
-    {
-        name: "",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 39,
-        parent_id: 14,
-    },
      {
         name: "Loks",
         translate: {
@@ -514,6 +586,179 @@ const categories = [
         id: 43,
         parent_id: 14,
     },
+    {
+        name: "Grafiak",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 49,
+        parent_id: 45,
+    },
+    {
+        name: "Tēlniecība",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 50,
+        parent_id: 45,
+    },
+    {
+        name: "Glezniecība",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 51,
+        parent_id: 45,
+    },
+    {
+        name: "cilnis,reljefs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 52,
+        parent_id: 45,
+    },
+    {
+        name: "sīkplastika",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 53,
+        parent_id: 45,
+    },
+    {
+        name: "Mozaika",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 54,
+        parent_id: 46,
+    },
+    {
+        name: "freska",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 55,
+        parent_id: 46,
+    },
+    {
+        name: "Vitrāža",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 56,
+        parent_id: 46,
+    },
+    {
+        name: "Monumenti",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 57,
+        parent_id: 47,
+    },
+    {
+        name: "Piemineķļi",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 58,
+        parent_id: 47,
+    },
+    {
+        name: "Memoriālie akmeņi",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 59,
+        parent_id: 47,
+    },
+    {
+        name: "Gramatika",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 65,
+        parent_id: 60,
+    },
+    {
+        name: "sarun-valoda",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 66,
+        parent_id: 60,
+    },
+     {
+        name: "sarun-valoda",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 67,
+        parent_id: 60,
+    }
+
+    
+    
+    
+    
 ];
 
 const proffessions = [
