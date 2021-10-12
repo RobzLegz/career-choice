@@ -1,5 +1,5 @@
 <h2>Matching algorithm</h2>
-```ts
+<code>
 const getProffessions = (selectedThemes: Theme[], setProfessions: any, loadMore: boolean) => {
     let dataScale: Proffession[] = [];
     for (let i = 0; i < proffessions.length; i++){
@@ -31,4 +31,4 @@ const getProffessions = (selectedThemes: Theme[], setProfessions: any, loadMore:
         setProfessions(dataScale);
     }
 }
-```
+</code>
