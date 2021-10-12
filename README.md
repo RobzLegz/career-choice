@@ -3,6 +3,7 @@
 * Laptops16 - finding information | translating
 * Sanvirus - finding information | translating
 * Neetra - designer
+* chillinxlol - 👀
 
 ## Matching algorythm
 ```ts
