@@ -1,3 +1,6 @@
+## Contributors
+
+
 ## Matching algorythm
 ```ts
 const getProffessions = (selectedThemes: Theme[], setProfessions: any, loadMore: boolean) => {
