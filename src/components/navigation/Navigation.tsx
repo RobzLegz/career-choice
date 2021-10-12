@@ -16,16 +16,16 @@ function Navigation() {
             <ul className="nav__links">
                 <li className="nav__link"><Link href="/">{languageInfo.text.global.navigation.links.link1}</Link></li>
                 <li className="nav__link"><Link href="/find">{languageInfo.text.global.navigation.links.link2}</Link></li>
-                <li className={`${languageChangerActive ? "" : ""}`}>
+                <li className="ml-5 flex items-center h-full">
                     {!languageChangerActive ? (
-                        <div className="ml-5" onClick={() => setLanguageChangerActive(true)}>
+                        <div className="w-16 h-5" onClick={() => setLanguageChangerActive(true)}>
                             {
                                 supportedLanguages.map((l) => {
                                     if(languageInfo.lang === l.short){
                                         return (
-                                            <div className="language__container">
-                                                <img src={l.flag} alt={`${l.language} flag`} />
-                                                <p>{l.short}</p>
+                                            <div className="w-full h-full flex items-center justify-between">
+                                                <img className="w-10 h-full" src={l.flag} alt={`${l.language} flag`} />
+                                                <p className="ml-1">{l.short}</p>
                                             </div>
                                         )
                                     }
@@ -36,9 +36,9 @@ function Navigation() {
                         <>
                             {
                                 supportedLanguages.map((language) => (
-                                    <div className="language__container">
-                                        <img src={language.flag} alt={`${language.language} flag`} />
-                                        <p>{language.short}</p>
+                                    <div className="h-5 flex ml-3 items-center">
+                                        <img className="w-10 h-full" src={language.flag} alt={`${language.language} flag`} />
+                                        <p className="ml-1">{language.short}</p>
                                     </div>
                                 ))
                             }
