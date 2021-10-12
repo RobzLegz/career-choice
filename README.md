@@ -1,8 +1,8 @@
 ## Contributors
-* Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* RobzLegz - project management | web development
+* Laptops16 - finding information | translating
+* Sanvirus - finding information | translating
+* Neetra - designer
 
 ## Matching algorythm
 ```ts
