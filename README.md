@@ -2,7 +2,7 @@
 * RobzLegz - project management | web development
 * Laptops16 - finding information | translating
 * Sanvirus - finding information | translating
-* Neetra - designer
+* Neetrah - designer
 * chillinxlol - 👀
 
 ## Matching algorythm
