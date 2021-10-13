@@ -1,10 +1,10 @@
 const categories = [
     {
-        name: "Sports",
-        info: "",
-        stage: 1,
-        id: 1,
-        parent_id: null
+        name: "Sports",// Kategorijas nosaukums
+        info: "",// informācija par kategoiju
+        stage: 1, // aptaujas stadija max - 3
+        id: 1, // kategorijas id - katram jābūt unikālam (nedrikst būt vienādi ID)
+        parent_id: null //ID, kas pieder kategorijai no iepriekšējās aptaujas stadijas
     },
     {
         name: "Māksla",
