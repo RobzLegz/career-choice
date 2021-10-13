@@ -68,12 +68,9 @@
     .nav__link{
         @apply ml-4;
     }
-}
-
-.nav__links{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    .nav__links{
+        @apply mt-4 md:mt-0 flex items-center justify-between;
+    }
 }
 
 .theme{
