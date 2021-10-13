@@ -1,6 +1,11 @@
 const categories = [
     {
         name: "Sports",// Kategorijas nosaukums
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "",// informācija par kategoiju
         stage: 1, // aptaujas stadija max - 3
         id: 1, // kategorijas id - katram jābūt unikālam (nedrikst būt vienādi ID)
@@ -8,6 +13,11 @@ const categories = [
     },
     {
         name: "Māksla",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "",
         stage: 1,
         id: 2,
@@ -15,6 +25,11 @@ const categories = [
     },
     {
         name: "Matemātika",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "",
         stage: 1,
         id: 3,
@@ -22,6 +37,11 @@ const categories = [
     },
     {
         name: "Valodas",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "",
         stage: 1,
         id: 4,
@@ -29,6 +49,11 @@ const categories = [
     },
     {
         name: "Mājturība",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Praktiska darbošanās",
         stage: 1,
         id: 5,
@@ -36,6 +61,11 @@ const categories = [
     },
     {
         name: "Datorika",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Darbs ar datoru",
         stage: 1,
         id: 6,
@@ -43,6 +73,11 @@ const categories = [
     },
     {
         name: "Kulinārija",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Darbs ar ēdienu",
         stage: 1,
         id: 7,
@@ -50,6 +85,11 @@ const categories = [
     },
     {
         name: "Zooloģija",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Darbs ar dzīvniekiem",
         stage: 1,
         id: 8,
@@ -57,6 +97,11 @@ const categories = [
     },
     {
         name: "Test",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 9,
@@ -64,6 +109,11 @@ const categories = [
     },
     {
         name: "Test1",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 10,
@@ -71,6 +121,11 @@ const categories = [
     },
     {
         name: "Test2",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 11,
@@ -78,6 +133,11 @@ const categories = [
     },
     {
         name: "Test3",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 12,
@@ -85,6 +145,11 @@ const categories = [
     },
     {
         name: "Test4",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 13,
@@ -92,6 +157,11 @@ const categories = [
     },
     {
         name: "Test5",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 14,
@@ -99,6 +169,11 @@ const categories = [
     },
     {
         name: "Test6",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 15,
@@ -106,6 +181,11 @@ const categories = [
     },
     {
         name: "Test7",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 16,
@@ -113,6 +193,11 @@ const categories = [
     },
     {
         name: "Test8",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 2,
         id: 17,
@@ -120,6 +205,11 @@ const categories = [
     },
     {
         name: "Testss",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 3,
         id: 18,
@@ -127,6 +217,11 @@ const categories = [
     },
     {
         name: "Test16",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 3,
         id: 19,
@@ -134,6 +229,11 @@ const categories = [
     },
     {
         name: "Test17",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 3,
         id: 20,
@@ -141,6 +241,11 @@ const categories = [
     },
     {
         name: "Test20",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
         info: "Just a test",
         stage: 3,
         id: 21,
