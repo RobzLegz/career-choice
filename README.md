@@ -1,5 +1,8 @@
+<p align="center"><img src="https://user-images.githubusercontent.com/62758448/137081427-7dc5c801-6e36-4607-8321-27bca6b82562.jpeg" /></p>
+
 ## Contributors
 * RobzLegz - project management | web development
+
 * Laptops16 - finding information | translating
 * Sanvirus - finding information | translating
 * Neetrah - designer
