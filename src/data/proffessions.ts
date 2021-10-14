@@ -72,78 +72,6 @@ const categories = [
         parent_id: null
     },
     {
-        name: "Komandu sports",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 9,
-        parent_id: 1,
-    },
-    {
-        name: "Individuāls sports",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 10,
-        parent_id: 1,
-    },
-    {
-        name: "Vieglatlētika",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 11,
-        parent_id: 1,
-    },
-    {
-        name: "Cīņas sports",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 12,
-        parent_id: 1,
-    },
-    {
-        name: "Ūdens sports",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 13,
-        parent_id: 1,
-    },
-    {
-        name: "Šaušanas sports",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 2,
-        id: 14,
-        parent_id: 1,
-    },
-    {
         name: "Tēlotāj māksla",
         translate: {
             lv: "Sports",
@@ -311,331 +239,9 @@ const categories = [
         id: 114,
         parent_id: 3,
     },
-     {
-        name: "Basketbols",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 16,
-        parent_id: 9,
-    },  
-      {
-        name: "Volejbols",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 17,
-        parent_id: 9,
-    },    
-      {
-        name: "Florbols",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 18,
-        parent_id: 9,
-    },      {
-        name: "Mākslas vingrošana",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 19,
-        parent_id: 9,
-    }, 
+     
     {
-        name: "Karatē",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 20,
-        parent_id: 10,
-    },    
-    {
-        name: "Makšķerēšana",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 21,
-        parent_id: 10,
-    },   
-    {
-        name: "Regbijs",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 22,
-        parent_id: 10,
-    },     
-    {
-        name: "Golfs",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 23,
-        parent_id: 10,
-    },    
-    {
-        name: "Džudo",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 24,
-        parent_id: 10,
-    },
-    {
-        name: "Kārclekšana",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 25,
-        parent_id: 11,
-    },
-    {
-        name: "Tāllekšana",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 26,
-        parent_id: 11,
-    },
-     {
-        name: "Mešana",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 27,
-        parent_id: 11,
-    },
-     {
-        name: "Barjeras",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 28,
-        parent_id: 11,
-    },
-     {
-        name: "Sprints",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 29,
-        parent_id: 11,
-    },
-     {
-        name: "bokss",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 30,
-        parent_id: 12,
-    },
-    {
-        name: "Jauktās cīņas",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 31,
-        parent_id: 12,
-    },
-    {
-        name: "Aikido",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 32,
-        parent_id: 12,
-    },
-    {
-        name: "Sumo",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 33,
-        parent_id: 12,
-    },
-    {
-        name: "MMA",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 34,
-        parent_id: 12,
-    },
-    {
-        name: "Peldētājs",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 35,
-        parent_id: 13,
-    },
-    {
-        name: "Nirējs",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 36,
-        parent_id: 13,
-    },
-    {
-        name: "Burāšana",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 37,
-        parent_id: 13,
-    },
-    {
-        name: "Sērfošana",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 38,
-        parent_id: 13,
-    },
-     {
-        name: "Loks",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 40,
-        parent_id: 14,
-    },
-    {
-        name: "Šautriņas",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 41,
-        parent_id: 14,
-    },
-    {
-        name: "Biatlons",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 42,
-        parent_id: 14,
-    },
-    {
-        name: "Arbalets",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 43,
-        parent_id: 14,
-    },
-    {
-        name: "Ilustrātors",
+        name: "Zīmētājs",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -647,7 +253,7 @@ const categories = [
         parent_id: 45,
     },
     {
-        name: "Mākslinieks",
+        name: "Gleznotājs",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -659,7 +265,7 @@ const categories = [
         parent_id: 45,
     },
     {
-        name: "Arhitekts",
+        name: "Veidotājs",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -668,42 +274,6 @@ const categories = [
         info: "Just a test",
         stage: 3,
         id: 51,
-        parent_id: 45,
-    },
-    {
-        name: "Kaligrāfs",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 52,
-        parent_id: 45,
-    },
-    {
-        name: "Karikatūrists",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 53,
-        parent_id: 45,
-    },
-    {
-        name: "Mākslas skolotājs",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 53,
         parent_id: 45,
     },
     {
@@ -1363,10 +933,12 @@ const categories = [
 ];
 
 const proffessions = [
-    {        name: "Proffession1", // Profesijas nosaukums piemēram Programmēšanas tehniķis
-        info: "some info about proffession", // Informācija par profesiju (pienākumi, darba apstākļi u.t.t.)
+    {        name: "Mākslinieks", // Profesijas nosaukums piemēram Programmēšanas tehniķis
+        info: "Mākslinieks ir ļoti radoša profesija.", // Informācija par profesiju (pienākumi, darba apstākļi u.t.t.)
         tags: [
-            "Test20"
+            "Māksla",
+            "Tēlotāj māksla",
+            "",
         ], // Pēc kādām kategorijām atpazīs šo profesiju
         salary: "500" // Vidējais atalgojums
     },
