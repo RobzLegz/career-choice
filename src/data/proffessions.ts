@@ -1340,7 +1340,19 @@ const categories = [
         info: "Just a test",
         stage: 3,
         id: 126,
-        parent_id: 112,
+        parent_id: 113,
+    },
+    {
+        name: "Klientu apkal.spe.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 126,
+        parent_id: 113,
     },
    
 
