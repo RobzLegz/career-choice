@@ -277,19 +277,7 @@ const categories = [
         parent_id: 45,
     },
     {
-        name: "Fotogrāfs",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Just a test",
-        stage: 3,
-        id: 54,
-        parent_id: 46,
-    },
-    {
-        name: "Grafiskais dizainers",
+        name: "Grafika",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -301,7 +289,7 @@ const categories = [
         parent_id: 46,
     },
     {
-        name: "front-end izstrādātājs",
+        name: "web",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -310,6 +298,18 @@ const categories = [
         info: "Just a test",
         stage: 3,
         id: 56,
+        parent_id: 46,
+    },
+    {
+        name: "Attēli",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 560,
         parent_id: 46,
     },
     {
@@ -938,26 +938,34 @@ const proffessions = [
         tags: [
             "Māksla",
             "Tēlotāj māksla",
-            "",
+            "zīmētājs",
+            "gelznotājs"
         ], // Pēc kādām kategorijām atpazīs šo profesiju
-        salary: "500" // Vidējais atalgojums
+        salary: "650" // Vidējais atalgojums
     },
     {
-        name: "Proffession2",
-        info: "some info about proffession",
+        name: "Grafikas dizaineris",
+        info: "Profesionāli nodarbojas ar grfisko dizainu",
         tags: [
-            "Testss",
-            "Test17"
+            "Māksla",
+            "Tēlotāj māksla",
+            "zīmētājs",
+            "It māksla",
+            "Grafika",
+            "Web",
+       
         ],
-        salary: "100"
+        salary: "1200"
     },
     {
-        name: "Labākā profesija",
-        info: "some info about proffession",
+        name: "Fotogrāfs",
+        info: "Fototgrāfs kvalitatīvi un jradoši fotogrāfē",
         tags: [
-            "Matemātika",
+            "Māklsa",
+            "IT māksla",
+            "attēli",
         ],
-        salary: "100"
+        salary: "950"
     },
     {
         name: "Mašīna",
