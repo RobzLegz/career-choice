@@ -72,31 +72,7 @@ const categories = [
         parent_id: null
     },
     {
-        name: "Kulinārija",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Darbs ar ēdienu",
-        stage: 1,
-        id: 7,
-        parent_id: null
-    },
-    {
-        name: "Zooloģija",
-        translate: {
-            lv: "Sports",
-            en: "Sport",
-            ru: "Sport"
-        },
-        info: "Darbs ar dzīvniekiem",
-        stage: 1,
-        id: 8,
-        parent_id: null
-    },
-    {
-        name: "Test",
+        name: "Tēlotāj māksla",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -104,11 +80,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 9,
-        parent_id: 1,
+        id: 45,
+        parent_id: 2,
     },
-    {
-        name: "Test1",
+     {
+        name: "It māksla",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -116,11 +92,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 10,
-        parent_id: 1,
+        id: 46,
+        parent_id: 2,
     },
-    {
-        name: "Test2",
+     {
+        name: "Mūzika",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -128,11 +104,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 11,
-        parent_id: 1,
+        id: 47,
+        parent_id: 2,
     },
     {
-        name: "Test3",
+        name: "Latviešu val.",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -140,11 +116,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 12,
-        parent_id: 1,
+        id: 60,
+        parent_id: 4,
     },
     {
-        name: "Test4",
+        name: "Angļu val.",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -152,11 +128,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 13,
-        parent_id: 1,
+        id: 61,
+        parent_id: 4,
     },
     {
-        name: "Test5",
+        name: "Literatūra",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -164,11 +140,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 14,
-        parent_id: 1,
+        id: 62,
+        parent_id: 4,
     },
     {
-        name: "Test6",
+        name: "Valodas",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -176,11 +152,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 15,
-        parent_id: 1,
+        id: 63,
+        parent_id: 4,
     },
-    {
-        name: "Test7",
+     {
+        name: "It sfērā",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -188,11 +164,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 16,
-        parent_id: 1,
+        id: 90,
+        parent_id: 3,
     },
-    {
-        name: "Test8",
+     {
+        name: "Biznesā",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -200,11 +176,72 @@ const categories = [
         },
         info: "Just a test",
         stage: 2,
-        id: 17,
-        parent_id: 1,
+        id: 91,
+        parent_id: 3,
     },
     {
-        name: "Testss",
+        name: "Zinātnē",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 92,
+        parent_id: 5,
+    },
+    {
+        name: "Radošums",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 111,
+        parent_id: 3,
+    },
+     {
+        name: "Fizisks darbs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 112,
+        parent_id: 3,
+    },
+     {
+        name: "Atbildība",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 113,
+        parent_id: 3,
+    },
+     {
+        name: "Bizness",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 2,
+        id: 114,
+        parent_id: 3,
+    },
+     
+    {
+        name: "Zīmētājs",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -212,11 +249,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 3,
-        id: 18,
-        parent_id: 15,
+        id: 49,
+        parent_id: 45,
     },
     {
-        name: "Test16",
+        name: "Gleznotājs",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -224,11 +261,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 3,
-        id: 19,
-        parent_id: 15,
+        id: 50,
+        parent_id: 45,
     },
     {
-        name: "Test17",
+        name: "Veidotājs",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -236,11 +273,11 @@ const categories = [
         },
         info: "Just a test",
         stage: 3,
-        id: 20,
-        parent_id: 14,
+        id: 51,
+        parent_id: 45,
     },
     {
-        name: "Test20",
+        name: "Grafika",
         translate: {
             lv: "Sports",
             en: "Sport",
@@ -248,36 +285,687 @@ const categories = [
         },
         info: "Just a test",
         stage: 3,
-        id: 21,
-        parent_id: 14,
-    }
+        id: 55,
+        parent_id: 46,
+    },
+    {
+        name: "web",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 56,
+        parent_id: 46,
+    },
+    {
+        name: "Attēli",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 560,
+        parent_id: 46,
+    },
+    {
+        name: "Mūziķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 57,
+        parent_id: 47,
+    },
+    {
+        name: "Komponists",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 58,
+        parent_id: 47,
+    },
+    {
+        name: "Dziedātājs/a",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 59,
+        parent_id: 47,
+    },
+    {
+        name: "Dīdžejs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 70,
+        parent_id: 47,
+    },
+    {
+        name: "Latviešu val.skol.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 66,
+        parent_id: 60,
+    },
+     {
+        name: "Orators",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 67,
+        parent_id: 60,
+    },
+    {
+        name: "Filazofs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 73,
+        parent_id: 60,
+    },
+    {
+        name: "Deputāts",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 74,
+        parent_id: 60,
+    },
+    {
+        name: "Lietvedis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 75,
+        parent_id: 60,
+    },
+    {
+        name: "Orators",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 76,
+        parent_id: 60,
+    },
+    {
+        name: "Programmētājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 77,
+        parent_id: 61,
+    },
+    {
+        name: "Grāmatvedis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 78,
+        parent_id: 61,
+    },
+    {
+        name: "Administrātors",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 79,
+        parent_id: 61,
+    },
+    {
+        name: "Projektu vadītājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 80,
+        parent_id: 61,
+    },
+    {
+        name: "Raksnieks",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 81,
+        parent_id: 62,
+    },
+    {
+        name: "Dzejnieks",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 872,
+        parent_id: 62,
+    },
+    {
+        name: "Redaktors",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 883,
+        parent_id: 62,
+    },
+    {
+        name: "Lit. kritiķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 893,
+        parent_id: 62,
+    },
+    {
+        name: "Redaktors",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 83,
+        parent_id: 62,
+    },
+    {
+        name: "Raksnieks",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 84,
+        parent_id: 62,
+    },
+    {
+        name: "Tulkotājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 85,
+        parent_id: 63,
+    },
+    {
+        name: "Privāt skolotājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 86,
+        parent_id: 63,
+    },
+    {
+        name: "Žurnālists",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 87,
+        parent_id: 63,
+    },
+    {
+        name: "Mārketings",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 88,
+        parent_id: 63,
+    },
+    {
+        name: "Programmētājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 95,
+        parent_id: 90,
+    },
+    {
+        name: "Programmētājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 96,
+        parent_id: 90,
+    },
+    {
+        name: "Datorspēļu dizai.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 97,
+        parent_id: 90,
+    },
+    {
+        name: "Meterologs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 98,
+        parent_id: 90,
+    },
+    {
+        name: "Inženieris",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 99,
+        parent_id: 90,
+    },
+    {
+        name: "Ekanomists",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 100,
+        parent_id: 91,
+    },
+    {
+        name: "Statistiķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 101,
+        parent_id: 91,
+    },
+    {
+        name: "finanču analītiķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 102,
+        parent_id: 91,
+    },
+    {
+        name: "Programmētājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 103,
+        parent_id: 91,
+    },
+    {
+        name: "Apdrošināšanas spec.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 104,
+        parent_id: 91,
+    },
+    {
+        name: "Apdrošināšanas spec.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 105,
+        parent_id: 91,
+    },
+    {
+        name: "Matemātiķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 106,
+        parent_id: 92,
+    },
+     {
+        name: "Auditors",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 107,
+        parent_id: 92,
+    },
+     {
+        name: "Pētnieks",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 108,
+        parent_id: 92,
+    },
+     {
+        name: "Kriptogrāfs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 109,
+        parent_id: 92,
+    },
+    {
+        name: "galdnieks",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 116,
+        parent_id: 111,
+    },
+    {
+        name: "Virpotājs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 117,
+        parent_id: 111,
+    },
+    {
+        name: "Kalējs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 118,
+        parent_id: 111,
+    },
+    {
+        name: "Stiklpūtējs",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 119,
+        parent_id: 111,
+    },
+    {
+        name: "Apkopēja",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 120,
+        parent_id: 112,
+    },
+    {
+        name: "Kasiere",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 121,
+        parent_id: 112,
+    },
+    {
+        name: "Elektriķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 122,
+        parent_id: 112,
+    },
+     {
+        name: "Automehāniķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 123,
+        parent_id: 112,
+    },
+     {
+        name: "Inženierkomunikācij tehniķis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 124,
+        parent_id: 112,
+    },
+     {
+        name: "Viesmīlis",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 125,
+        parent_id: 113,
+    },
+     {
+        name: "Klientu apkal.spe.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 126,
+        parent_id: 113,
+    },
+    {
+        name: "Klientu apkal.spe.",
+        translate: {
+            lv: "Sports",
+            en: "Sport",
+            ru: "Sport"
+        },
+        info: "Just a test",
+        stage: 3,
+        id: 126,
+        parent_id: 113,
+    },
+   
+
+    
+    
+    
+    
 ];
 
 const proffessions = [
-    {
-        name: "Proffession1", // Profesijas nosaukums piemēram Programmēšanas tehniķis
-        info: "some info about proffession", // Informācija par profesiju (pienākumi, darba apstākļi u.t.t.)
+    {        name: "Mākslinieks", // Profesijas nosaukums piemēram Programmēšanas tehniķis
+        info: "Mākslinieks ir ļoti radoša profesija.", // Informācija par profesiju (pienākumi, darba apstākļi u.t.t.)
         tags: [
-            "Test20"
+            "Māksla",
+            "Tēlotāj māksla",
+            "zīmētājs",
+            "gelznotājs"
         ], // Pēc kādām kategorijām atpazīs šo profesiju
-        salary: "500" // Vidējais atalgojums
+        salary: "650" // Vidējais atalgojums
     },
     {
-        name: "Proffession2",
-        info: "some info about proffession",
+        name: "Grafikas dizaineris",
+        info: "Profesionāli nodarbojas ar grfisko dizainu",
         tags: [
-            "Testss",
-            "Test17"
+            "Māksla",
+            "Tēlotāj māksla",
+            "zīmētājs",
+            "It māksla",
+            "Grafika",
+            "Web",
+       
         ],
-        salary: "100"
+        salary: "1200"
     },
     {
-        name: "Labākā profesija",
-        info: "some info about proffession",
+        name: "Fotogrāfs",
+        info: "Fototgrāfs kvalitatīvi un jradoši fotogrāfē",
         tags: [
-            "Matemātika",
+            "Māklsa",
+            "IT māksla",
+            "attēli",
         ],
-        salary: "100"
+        salary: "950"
     },
     {
         name: "Mašīna",
